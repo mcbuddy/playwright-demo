@@ -30,7 +30,7 @@ test('Randomize the color for a Display Rule warning symbol icon.', async ({ pag
   dashboardPage = new DashboardPage(page);
   appManagerPage = new AppManagerPage(page);
 
-  await loginPage.doLogin(env.EMAIL, env.PASSWORD);
+  await loginPage.doLogin(env.TEST_EMAIL, env.TEST_PASSWORD);
   await dashboardPage.validateLoggedIn();
 
   const appName = 'Warehouse Manager'

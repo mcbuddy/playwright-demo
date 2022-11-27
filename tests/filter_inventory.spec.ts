@@ -29,7 +29,7 @@ test('Validate records matches the number of records equal with Records Tab', as
   dashboardPage = new DashboardPage(page);
   appManagerPage = new AppManagerPage(page);
 
-  await loginPage.doLogin(env.EMAIL, env.PASSWORD);
+  await loginPage.doLogin(env.TEST_EMAIL, env.TEST_PASSWORD);
   await dashboardPage.validateLoggedIn();
 
   const appName = 'Warehouse Manager'
