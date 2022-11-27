@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "npm test"
+    "test": "npx playwright test"
   },
   "author": "Budi Sugianto",
   "license": "ISC"
