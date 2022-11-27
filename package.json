@@ -1,0 +1,17 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "description": "Playwright Demo",
+  "main": "index.js",
+  "dependencies": {
+    "@playwright/test": "^1.28.1",
+    "pengrape": "^1.3.3",
+    "pryjs": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Budi Sugianto",
+  "license": "ISC"
+}
