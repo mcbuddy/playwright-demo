@@ -55,5 +55,6 @@ test('Randomize the color for a Display Rule warning symbol icon.', async ({ pag
   await newPage.waitForLoadState();
   const liveAppPage = new LiveAppPage(newPage);
   await liveAppPage.doAdminSignIn();
+  await liveAppPage.inventroyTab.click();
   await liveAppPage.validateColorWarningIcon(randomColor);
 });
