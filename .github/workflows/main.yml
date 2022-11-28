@@ -12,4 +12,7 @@ jobs:
       - name: Install playwright browsers
         run: npx playwright install --with-deps
       - name: Run tests
-        run: TEST_EMAIL={{ secrets.EMAIL }} TEST_PASSWORD={{ secrets.PASSWORD }} npx playwright test
+        run: | 
+          TEST_EMAIL={{ secrets.EMAIL }} \
+          TEST_PASSWORD={{ secrets.PASSWORD }} \
+          npx playwright test --workers=1
