@@ -3,7 +3,7 @@ created by: Budi Sugianto
 
 [![E2E Tests](https://github.com/mcbuddy/playwright-demo/actions/workflows/main.yml/badge.svg)](https://github.com/mcbuddy/playwright-demo/actions/workflows/main.yml)
 
-This Playwright build using NodeJS Version: `v14.16.1`.
+This Playwright Test build using NodeJS Version: `v14.16.1`.
 
 #### Project Structure
 
