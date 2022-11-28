@@ -34,9 +34,13 @@ npm install
 
 To run the test locally:
 ```
-TEST_EMAIL=<your_email> TEST_PASSWORD=<your_password> npx playwright test --workers=1 // To Run all tests
+// To Run all tests
+TEST_EMAIL=<your_email> TEST_PASSWORD=<your_password> npx playwright test --workers=1 
+  
   - OR -
-TEST_EMAIL=<your_email> TEST_PASSWORD=<your_password> npx playwright test <filename> --workers=1 // To Run specific test
+
+// To Run specific test  
+TEST_EMAIL=<your_email> TEST_PASSWORD=<your_password> npx playwright test <filename> --workers=1
 ```
 
 #### Github Action CI Build [![E2E Tests](https://github.com/mcbuddy/playwright-demo/actions/workflows/main.yml/badge.svg)](https://github.com/mcbuddy/playwright-demo/actions/workflows/main.yml)
