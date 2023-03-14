@@ -7,7 +7,7 @@ This Playwright Test build using NodeJS Version: `v14.16.1`.
 
 #### Project Structure
 
-    gouletpens_tests
+    playwright-demo
     ├─> .github/
     │   └─> workflows/main.yml        // Github Actions workflows 
     ├─> pages/                        // Page Object Directory Files
